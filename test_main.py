@@ -21,7 +21,7 @@ def client():
     yield client
 
 
-
+#Test the generic route '/'
 def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
