@@ -86,3 +86,9 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+Remember to delete every thing after the project is submitted and up and running
+
+eksctl delete cluster simple-jwt-api  --region=us-east-2
+
+aws ssm delete-parameter --name JWT_SECRET
